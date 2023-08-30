@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.SpawningBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Peace");
-            Tooltip.SetDefault("Allows toggling Ultimate Peace\nMakes enemy limit 0\n-Hoho");
+            // DisplayName.SetDefault("Infinite Peace");
+            // Tooltip.SetDefault("Allows toggling Ultimate Peace\nMakes enemy limit 0\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

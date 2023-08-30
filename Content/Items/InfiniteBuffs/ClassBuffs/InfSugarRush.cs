@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Sugar Rush Buff");
-            Tooltip.SetDefault("+20% Movement speed\n+20% Mining speed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Sugar Rush Buff");
+            // Tooltip.SetDefault("+20% Movement speed\n+20% Mining speed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

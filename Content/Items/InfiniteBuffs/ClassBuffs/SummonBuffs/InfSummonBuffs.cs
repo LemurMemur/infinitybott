@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.SummonBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Summon Buffs");
-            Tooltip.SetDefault("Infinite Bewitched and Summoning\n-Hoho");
+            // DisplayName.SetDefault("Infinite Summon Buffs");
+            // Tooltip.SetDefault("Infinite Bewitched and Summoning\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

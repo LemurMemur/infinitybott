@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MeleeBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Tipsy Buff");
-            Tooltip.SetDefault("+10% Melee damage\n+10% Melee attack speed\n+2% Melee critical rate\nNo defense reduction\n-Hoho");
+            // DisplayName.SetDefault("Infinite Tipsy Buff");
+            // Tooltip.SetDefault("+10% Melee damage\n+10% Melee attack speed\n+2% Melee critical rate\nNo defense reduction\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.AquaticBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Water Walking Buff");
-            Tooltip.SetDefault("Walk on water.\nAllows walking on other liquids when combined with obsidian skin.\n-Hoho");
+            // DisplayName.SetDefault("Infinite Water Walking Buff");
+            // Tooltip.SetDefault("Walk on water.\nAllows walking on other liquids when combined with obsidian skin.\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

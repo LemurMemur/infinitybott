@@ -134,7 +134,7 @@ namespace infinitybott
         public bool Toggle_Peace = true; // Default value ON, maybe I should put these 2 in the config instead
         public bool Toggle_War = false;
 
-        public override void OnEnterWorld(Player player) // REMEMBER TO COMMENT THIS OUT WHEN STUFF IS FIXED >:(
+        public override void OnEnterWorld() // REMEMBER TO COMMENT THIS OUT WHEN STUFF IS FIXED >:(
         {
             if (Main.netMode == NetmodeID.SinglePlayer)
             {
@@ -156,7 +156,7 @@ namespace infinitybott
             */
         }
 
-        public override void clientClone(ModPlayer clientClone)
+        public override void CopyClientState(ModPlayer clientClone)/* tModPorter Suggestion: Replace Item.Clone usages with Item.CopyNetStateTo */
         {
             InfinitybottPlayer clone = clientClone as InfinitybottPlayer;
             clone.Inf_Calm = Inf_Calm;

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Star in a Bottle Buff");
-            Tooltip.SetDefault("+2 Mana per second\n-Hoho");
+            // DisplayName.SetDefault("Infinite Star in a Bottle Buff");
+            // Tooltip.SetDefault("+2 Mana per second\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

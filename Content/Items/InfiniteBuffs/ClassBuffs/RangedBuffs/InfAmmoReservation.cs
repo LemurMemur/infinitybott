@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.RangedBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Ammo Reservation Buff");
-            Tooltip.SetDefault("20% Chance to not consume ammo\n-Hoho");
+            // DisplayName.SetDefault("Infinite Ammo Reservation Buff");
+            // Tooltip.SetDefault("20% Chance to not consume ammo\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

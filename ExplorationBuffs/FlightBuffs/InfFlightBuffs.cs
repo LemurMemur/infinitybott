@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.FlightBuffs
     {
         public override void SetStaticDefaults() 
         {
-            DisplayName.SetDefault("Infinite Flight Buffs");
-            Tooltip.SetDefault("Infinite Featherfall and Gravitation\n-Hoho");
+            // DisplayName.SetDefault("Infinite Flight Buffs");
+            // Tooltip.SetDefault("Infinite Featherfall and Gravitation\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

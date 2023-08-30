@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.VisualBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Hunter Buff");
-            Tooltip.SetDefault("Highlights enemies and allies\n-Hoho");
+            // DisplayName.SetDefault("Infinite Hunter Buff");
+            // Tooltip.SetDefault("Highlights enemies and allies\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

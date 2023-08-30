@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.BasicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Exquisitely Stuffed");
-            Tooltip.SetDefault("Exquisitely Stuffed Buff\nDoes not stack with other Food Buffs\nFull details on Terraria wiki\n-Hoho");
+            // DisplayName.SetDefault("Infinite Exquisitely Stuffed");
+            // Tooltip.SetDefault("Exquisitely Stuffed Buff\nDoes not stack with other Food Buffs\nFull details on Terraria wiki\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

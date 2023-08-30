@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.DefensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Endurance Buff");
-            Tooltip.SetDefault("+10% damage reduction\n-Hoho");
+            // DisplayName.SetDefault("Infinite Endurance Buff");
+            // Tooltip.SetDefault("+10% damage reduction\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

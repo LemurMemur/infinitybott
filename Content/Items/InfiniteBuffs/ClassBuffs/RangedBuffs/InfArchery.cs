@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.RangedBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Archery Buff");
-            Tooltip.SetDefault("+20% Arrow damage\n+20% Bow firing speed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Archery Buff");
+            // Tooltip.SetDefault("+20% Arrow damage\n+20% Bow firing speed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

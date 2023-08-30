@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.FishingBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Fishing Buff");
-            Tooltip.SetDefault("+15 Fishing Power\n-Hoho");
+            // DisplayName.SetDefault("Infinite Fishing Buff");
+            // Tooltip.SetDefault("+15 Fishing Power\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

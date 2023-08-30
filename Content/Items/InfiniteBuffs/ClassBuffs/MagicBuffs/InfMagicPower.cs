@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MagicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Magic Power Buff");
-            Tooltip.SetDefault("+20% Magic damage\n-Hoho");
+            // DisplayName.SetDefault("Infinite Magic Power Buff");
+            // Tooltip.SetDefault("+20% Magic damage\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.FishingBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Sonar Buff");
-            Tooltip.SetDefault("Detects hooked fish\n-Hoho");
+            // DisplayName.SetDefault("Infinite Sonar Buff");
+            // Tooltip.SetDefault("Detects hooked fish\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

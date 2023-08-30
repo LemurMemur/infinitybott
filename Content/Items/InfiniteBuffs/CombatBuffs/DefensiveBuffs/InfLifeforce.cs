@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.DefensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Lifeforce Buff");
-            Tooltip.SetDefault("+20% max health\n-Hoho");
+            // DisplayName.SetDefault("Infinite Lifeforce Buff");
+            // Tooltip.SetDefault("+20% max health\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

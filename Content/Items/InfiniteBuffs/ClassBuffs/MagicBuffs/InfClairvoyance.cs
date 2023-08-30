@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MagicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Clairvoyance Buff");
-            Tooltip.SetDefault("+20 maximum Mana\n+5% Magic damage\n+2% Magic critical strike chance\n-2% Mana usage\n-Hoho");
+            // DisplayName.SetDefault("Infinite Clairvoyance Buff");
+            // Tooltip.SetDefault("+20 maximum Mana\n+5% Magic damage\n+2% Magic critical strike chance\n-2% Mana usage\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

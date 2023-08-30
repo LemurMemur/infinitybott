@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Heart Lantern Buff");
-            Tooltip.SetDefault("+1 Health per second\n-Hoho");
+            // DisplayName.SetDefault("Infinite Heart Lantern Buff");
+            // Tooltip.SetDefault("+1 Health per second\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

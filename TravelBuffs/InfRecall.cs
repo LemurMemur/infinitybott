@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.TravelBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Recall");
-            Tooltip.SetDefault("Must be bound to a key to use\n-Hoho");
+            // DisplayName.SetDefault("Infinite Recall");
+            // Tooltip.SetDefault("Must be bound to a key to use\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

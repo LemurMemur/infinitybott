@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.TravelBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Travel Buffs");
-            Tooltip.SetDefault("Infinite Recall, Return, Teleportation, and Wormhole\n-Hoho");
+            // DisplayName.SetDefault("Infinite Travel Buffs");
+            // Tooltip.SetDefault("Infinite Recall, Return, Teleportation, and Wormhole\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Arena Buffs");
-            Tooltip.SetDefault("Infinite Campfire, Heart Lantern, Honey, Star in a Bottle, Sunflower, Bast Statue\n-Hoho");
+            // DisplayName.SetDefault("Infinite Arena Buffs");
+            // Tooltip.SetDefault("Infinite Campfire, Heart Lantern, Honey, Star in a Bottle, Sunflower, Bast Statue\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Combat Buffs");
-            Tooltip.SetDefault("General offensive and defensive buffs\n-Hoho");
+            // DisplayName.SetDefault("Infinite Combat Buffs");
+            // Tooltip.SetDefault("General offensive and defensive buffs\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

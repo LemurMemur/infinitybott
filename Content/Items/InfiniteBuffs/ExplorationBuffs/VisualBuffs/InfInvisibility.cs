@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.VisualBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Invisibility Buff");
-            Tooltip.SetDefault("Invisibility can be toggled in the mod menu\nMod menu must be bound to use\n-Hoho");
+            // DisplayName.SetDefault("Infinite Invisibility Buff");
+            // Tooltip.SetDefault("Invisibility can be toggled in the mod menu\nMod menu must be bound to use\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

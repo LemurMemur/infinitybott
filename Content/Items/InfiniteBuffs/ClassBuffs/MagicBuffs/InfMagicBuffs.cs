@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MagicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Magic Buffs");
-            Tooltip.SetDefault("Infinite Clairvoyance, Magic Power, and Mana Regeneration\n-Hoho");
+            // DisplayName.SetDefault("Infinite Magic Buffs");
+            // Tooltip.SetDefault("Infinite Clairvoyance, Magic Power, and Mana Regeneration\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

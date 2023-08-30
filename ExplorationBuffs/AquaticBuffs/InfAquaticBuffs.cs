@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.AquaticBuffs
     {
         public override void SetStaticDefaults() 
         {
-            DisplayName.SetDefault("Infinite Aquatic Buffs");
-            Tooltip.SetDefault("Infinite Flipper, Gills, and Water Walking\n-Hoho");
+            // DisplayName.SetDefault("Infinite Aquatic Buffs");
+            // Tooltip.SetDefault("Infinite Flipper, Gills, and Water Walking\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

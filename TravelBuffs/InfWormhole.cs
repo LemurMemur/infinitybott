@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.TravelBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Wormhole");
-            Tooltip.SetDefault("Click on an allied player on the fullscreen map to teleport to them\n-Hoho");
+            // DisplayName.SetDefault("Infinite Wormhole");
+            // Tooltip.SetDefault("Click on an allied player on the fullscreen map to teleport to them\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.BasicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Ironskin Potion");
-            Tooltip.SetDefault("+8 Defense\n-Hoho");
+            // DisplayName.SetDefault("Infinite Ironskin Potion");
+            // Tooltip.SetDefault("+8 Defense\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

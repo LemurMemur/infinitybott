@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.GatheringBuf
     {
         public override void SetStaticDefaults() 
         {
-            DisplayName.SetDefault("Infinite Builder Buff");
-            Tooltip.SetDefault("Increased placement speed and reach\n-Hoho");
+            // DisplayName.SetDefault("Infinite Builder Buff");
+            // Tooltip.SetDefault("Increased placement speed and reach\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

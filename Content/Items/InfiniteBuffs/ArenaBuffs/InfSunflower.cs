@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Sunflower Buff");
-            Tooltip.SetDefault("+10% Max run speed\nMonster spawn rate decrease not included\n-Hoho");
+            // DisplayName.SetDefault("Infinite Sunflower Buff");
+            // Tooltip.SetDefault("+10% Max run speed\nMonster spawn rate decrease not included\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

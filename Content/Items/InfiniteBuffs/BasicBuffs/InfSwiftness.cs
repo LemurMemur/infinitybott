@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.BasicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Swiftness Buff");
-            Tooltip.SetDefault("+25% Max run speed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Swiftness Buff");
+            // Tooltip.SetDefault("+25% Max run speed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

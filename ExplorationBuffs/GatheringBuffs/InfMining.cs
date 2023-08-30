@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.GatheringBuf
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Mining Buff");
-            Tooltip.SetDefault("Increased mining speed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Mining Buff");
+            // Tooltip.SetDefault("Increased mining speed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()
