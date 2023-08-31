@@ -1,4 +1,0 @@
-displayName = Hoho - Infinite Potions
-author = LemurMemur/Saki Mizushima
-version = 1.0.4
-includeSource = true
