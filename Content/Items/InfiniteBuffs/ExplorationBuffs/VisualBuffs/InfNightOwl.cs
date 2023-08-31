@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.VisualBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Night Owl Buff");
-            // Tooltip.SetDefault("Grants better night vision\n-Hoho");
+            DisplayName.SetDefault("Infinite Night Owl Buff");
+            Tooltip.SetDefault("Grants better night vision\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

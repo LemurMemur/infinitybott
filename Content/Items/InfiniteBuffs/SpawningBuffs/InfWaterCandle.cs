@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.SpawningBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Water Candle Buff");
-            // Tooltip.SetDefault("+25% Spawn Rate\n+50% Enemy Limit\nUse Toggle War Keybind to activate\n-Hoho");
+            DisplayName.SetDefault("Infinite Water Candle Buff");
+            Tooltip.SetDefault("+25% Spawn Rate\n+50% Enemy Limit\nUse Toggle War Keybind to activate\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -42,8 +42,8 @@ namespace infinitybott
 
             instance = this;
 
-            Terraria.On_Player.HasUnityPotion += hook_HasUnityPotion;
-            Terraria.On_Player.TakeUnityPotion += hook_TakeUnityPotion;
+            On.Terraria.Player.HasUnityPotion += hook_HasUnityPotion;
+            On.Terraria.Player.TakeUnityPotion += hook_TakeUnityPotion;
 
             //Need to Manually add some content to make ItemID order correct for rainbow in RecipeBrowser and CheatSheet
 
@@ -60,14 +60,14 @@ namespace infinitybott
 
         }
 
-        private void hook_TakeUnityPotion(Terraria.On_Player.orig_TakeUnityPotion orig, Player self)
+        private void hook_TakeUnityPotion(On.Terraria.Player.orig_TakeUnityPotion orig, Player self)
         {
             InfinitybottPlayer modPlayer = self.GetModPlayer<InfinitybottPlayer>();
             if (modPlayer.Inf_Wormhole) return;
             orig(self);
         }
 
-        private bool hook_HasUnityPotion(Terraria.On_Player.orig_HasUnityPotion orig, Player self)
+        private bool hook_HasUnityPotion(On.Terraria.Player.orig_HasUnityPotion orig, Player self)
         {
             InfinitybottPlayer modPlayer = self.GetModPlayer<InfinitybottPlayer>();
             return (modPlayer.Inf_Wormhole || orig(self));

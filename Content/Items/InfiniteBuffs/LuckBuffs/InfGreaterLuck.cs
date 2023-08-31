@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.LuckBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Greater Luck Buff");
-            // Tooltip.SetDefault("+0.3 Luck\n-Hoho");
+            DisplayName.SetDefault("Infinite Greater Luck Buff");
+            Tooltip.SetDefault("+0.3 Luck\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

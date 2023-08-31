@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs
     {
         public override void SetStaticDefaults() 
         {
-            // DisplayName.SetDefault("Infinite Exploration Buffs");
-            // Tooltip.SetDefault("Infinite Aquatic, Fishing, Flight, Gathering, and Visual\n-Hoho");
+            DisplayName.SetDefault("Infinite Exploration Buffs");
+            Tooltip.SetDefault("Infinite Aquatic, Fishing, Flight, Gathering, and Visual\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

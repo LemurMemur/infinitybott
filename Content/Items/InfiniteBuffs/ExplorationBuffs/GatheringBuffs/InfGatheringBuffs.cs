@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.GatheringBuf
     {
         public override void SetStaticDefaults() 
         {
-            // DisplayName.SetDefault("Infinite Gathering Buffs");
-            // Tooltip.SetDefault("Infinite Builder, Mining, Obsidian Skin, and Spelunker\n-Hoho");
+            DisplayName.SetDefault("Infinite Gathering Buffs");
+            Tooltip.SetDefault("Infinite Builder, Mining, Obsidian Skin, and Spelunker\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.AquaticBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Gills Buff");
-            // Tooltip.SetDefault("Allows breathing under water\n-Hoho");
+            DisplayName.SetDefault("Infinite Gills Buff");
+            Tooltip.SetDefault("Allows breathing under water\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

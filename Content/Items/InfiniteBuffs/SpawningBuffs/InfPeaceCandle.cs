@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.SpawningBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Peace Candle Buff");
-            // Tooltip.SetDefault("-30% Spawn Rate\n-30% Enemy Limit\nUse Toggle Peace Keybind to activate\n-Hoho");
+            DisplayName.SetDefault("Infinite Peace Candle Buff");
+            Tooltip.SetDefault("-30% Spawn Rate\n-30% Enemy Limit\nUse Toggle Peace Keybind to activate\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

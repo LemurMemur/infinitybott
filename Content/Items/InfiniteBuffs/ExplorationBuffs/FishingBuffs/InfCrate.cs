@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.FishingBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Crate Buff");
-            // Tooltip.SetDefault("Increases chance of catching a crate from 10% to 20%\n-Hoho");
+            DisplayName.SetDefault("Infinite Crate Buff");
+            Tooltip.SetDefault("Increases chance of catching a crate from 10% to 20%\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

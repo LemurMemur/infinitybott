@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.SpawningBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite War");
-            // Tooltip.SetDefault("Allows toggling Ultimate War\n100x Spawn Rate, 20x Enemy Limit\n-Hoho");
+            DisplayName.SetDefault("Infinite War");
+            Tooltip.SetDefault("Allows toggling Ultimate War\n100x Spawn Rate, 20x Enemy Limit\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

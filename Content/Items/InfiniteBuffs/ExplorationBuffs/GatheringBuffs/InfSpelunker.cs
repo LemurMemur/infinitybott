@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.GatheringBuf
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Spelunker Buff");
-            // Tooltip.SetDefault("Lights up treasure\n-Hoho");
+            DisplayName.SetDefault("Infinite Spelunker Buff");
+            Tooltip.SetDefault("Lights up treasure\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

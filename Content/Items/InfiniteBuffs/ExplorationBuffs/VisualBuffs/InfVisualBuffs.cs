@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.VisualBuffs
     {
         public override void SetStaticDefaults() 
         {
-            // DisplayName.SetDefault("Infinite Visual Buffs");
-            // Tooltip.SetDefault("Infinite Dangersense, Hunter, Invisibility, Night Owl, and Shine\n-Hoho");
+            DisplayName.SetDefault("Infinite Visual Buffs");
+            Tooltip.SetDefault("Infinite Dangersense, Hunter, Invisibility, Night Owl, and Shine\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

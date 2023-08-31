@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("All Buffs");
-            // Tooltip.SetDefault("Grants all vanilla buffs\n\"LFG!\"\n-Hoho");
+            DisplayName.SetDefault("All Buffs");
+            Tooltip.SetDefault("Grants all vanilla buffs\n\"LFG!\"\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()
