@@ -1,0 +1,119 @@
+1.0.4
+Infinite Buffs
+Works similarly to Luiafk; Buffs automatically apply directly when in inventory. They do not need to be equiped and do not take up any buff slots.
+Keybinds are needed for Recall, Return, Teleportation, Peace, and War.
+For Peace and War, the highest level of modifier will be used; The candle and potion modifiers will be additive, while the ultimate modifier is fixed.
+Suggested use with AlchemistNPC, Fargo's Souls, and Recipe Browser
+
+Last updated for tModLoader 8/22/22
+Changelog is at bottom.
+
+This has become an unintentional undertale reference and I'm going to stick with it.
+
+It will usually take 30 of an item to create the infinite potion buff item, rarer items and furniture buffs (Like campfire) will usually take 5 to craft, and even rarer items (Ammo Box, Bast Statue, etc.) take 2.
+Most items with multiple crafting versions will require the default version until I finish a good portion of the mod and then figure out how to use recipe groups.
+(use basic woodeen campfire, etc.)
+Some materials (prime example is bast statue) will most likely require crate fishing.
+
+WARNING:
+Calamity Mod has some speed changes not reflected in this mod, due to its base movement speed buff from 15 mps -> 23 mps.
+Swiftness potions were nerfed in Calamity to give a 15% speed bonus instead of 25%.
+Well Fed speed bonuses decreased from:
+20% -> 5%
+30% -> 7.5%
+40% -> 10%
+for Well Fed, Plenty Satisfied, and Exquisitely Stuffed, respectively.
+These changes are not reflected here.
+Full basic buffs item grants a combined 65% bonus movement speed, while in Calamity, the buffs would give 25% movement speed.
+
+Working on adding the rest of the buffs and some other QoL items.
+WIP:
+I'm looking into making a wiki for the crafting tree, changelog, and future items.
+I will eventually add a more intuitive and accessible effect toggle menu when I figure out how to use UI elements and if you guys ask for it. For now it will be in the Mod Configuration Settings.
+
+Version 1.0.4
+Fixed hovering over teammates while not having infinite wormhole item causing crashes
+
+Version 1.0.3
+Edited description
+
+Version 1.0.2
+Enabled wormholes and spawning modifiers
+Fixed spawning modifiers not working on servers
+
+Version 1.0.1
+Temporarily disabled wormhole and spawning modifiers while working on a fix
+
+Version 1.0.0
+All buffs finished!
+Added Spawning-Related modifiers and respective keybinds
+Calm, Peace Candle, Ultimate Peace
+Battle, Water Candle, Ultimate War
+Fixed many bugs affecting travel potion hotkeys.
+Added Final Infinite Buffs Item, crafted from all the Hearts
+Having an infinite buff Item prevents you from being affected by the respective buff. (Removed item + buff stacking)
+Changed load order of some items so that items will show up in specific order in crafting menu and recipe browser.
+Changed a few item names. This might lead to a few corrupted items and needing to recraft.
+
+
+Version 0.8.1
+Fixed Wormhole implemented incorrectly
+
+Version 0.8.0
+Finished Travel Buffs:
+Teleportation and Wormhole
+(Recall and Return already added earlier)
+
+Version 0.7.0
+Added General Combat Buffs:
+Offensive Buffs:
+Inferno, Rage, Titan, and Wrath
+Defensive Buffs:
+Endurance, Heartreach, Lifeforce, Thorns, and Warmth buffs
+
+Version 0.6.1
+Added mod config settings to toggle effects for:
+Crate, Featherfall, Gravitation, and Invisibility Buffs.
+Also removed -4 armor penalty from Infinite Tipsy Buff.
+
+Version 0.6:
+Changed majority of the icons already implemented to directly reflect the buff given. Previously just solid colors based on the potion, and many potions have very similar colors (recall, wormhole, invisibility, etc.).
+Edited some of the buff code (mainly well fed buffs) to fix bugs and more directly reflect the vanilla source buff code.
+Added Exploration buffs:
+Gathering Buffs:
+Builder, Mining, Obsidian Skin, Spelunker
+Visual Buffs:
+Dangersense, Hunter, Night Owl, Shine, Invisibility
+Flight Buffs:
+Featherfall, Gravitation
+Aquatic Buffs:
+Flipper, Gills, Water Walking
+Fishing Buffs:
+Fishing, Sonar, Crate
+
+Version 0.5:
+Added most luck related buffs:
+Luck Potions
+Ladybug Luck
+Gnome Statue
+Torch Luck
+
+Version 0.4:
+Added Class Specific and Station Buffs:
+Sugar Rush (All class)
+Melee:
+Sharpened, Ichor, Tipsy
+Ranged:
+Ammo Box, Ammo Reservation, Archery
+Magic:
+Clairvoyance, Magic Power, Mana Regeneration
+Summon:
+Bewitched, Summoning
+
+Version 0.3:
+Added Arena Buffs:
+Campfire, Heart Lantern, Honey, Star in a Bottle, Sunflower, Bast Statue
+
+Infinitybott and Hoho are very cool.
+Thanks for coming!
+This Mod is open source.
