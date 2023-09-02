@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.GatheringBuf
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Obsidian Skin Buff");
-            Tooltip.SetDefault("Immunity to fire and lava\n-Hoho");
+            // DisplayName.SetDefault("Infinite Obsidian Skin Buff");
+            // Tooltip.SetDefault("Immunity to fire and lava\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

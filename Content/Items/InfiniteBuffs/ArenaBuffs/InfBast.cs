@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Bast Statue Buff");
-            Tooltip.SetDefault("+5 Defense\n-Hoho");
+            // DisplayName.SetDefault("Infinite Bast Statue Buff");
+            // Tooltip.SetDefault("+5 Defense\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

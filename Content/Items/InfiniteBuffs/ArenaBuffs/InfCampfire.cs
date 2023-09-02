@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ArenaBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Campfire Buff");
-            Tooltip.SetDefault("+0.5 Health per second\n1.1x Regeneration speed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Campfire Buff");
+            // Tooltip.SetDefault("+0.5 Health per second\n1.1x Regeneration speed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

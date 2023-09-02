@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.DefensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Thorns Buff");
-            Tooltip.SetDefault("Reflects damage and knockbacks enemies\n-Hoho");
+            // DisplayName.SetDefault("Infinite Thorns Buff");
+            // Tooltip.SetDefault("Reflects damage and knockbacks enemies\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.BasicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Basic Buffs");
-            Tooltip.SetDefault("Infinite Ironskin, Swiftness, Regeneration, and Exquisitely Stuffed\n-Hoho");
+            // DisplayName.SetDefault("Infinite Basic Buffs");
+            // Tooltip.SetDefault("Infinite Ironskin, Swiftness, Regeneration, and Exquisitely Stuffed\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

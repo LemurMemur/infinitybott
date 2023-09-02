@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MeleeBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Sharpened Buff");
-            Tooltip.SetDefault("+12 Melee armor penetration\n-Hoho");
+            // DisplayName.SetDefault("Infinite Sharpened Buff");
+            // Tooltip.SetDefault("+12 Melee armor penetration\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.TravelBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Teleportation");
-            Tooltip.SetDefault("Teleports the player to a random location\n-Hoho");
+            // DisplayName.SetDefault("Infinite Teleportation");
+            // Tooltip.SetDefault("Teleports the player to a random location\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

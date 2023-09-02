@@ -134,7 +134,7 @@ namespace infinitybott
         public bool Toggle_Peace = true; // Default value ON, maybe I should put these 2 in the config instead
         public bool Toggle_War = false;
 
-        public override void OnEnterWorld(Player player) // REMEMBER TO COMMENT THIS OUT WHEN STUFF IS FIXED >:(
+        public override void OnEnterWorld() // REMEMBER TO COMMENT THIS OUT WHEN STUFF IS FIXED >:(
         {
             if (Main.netMode == NetmodeID.SinglePlayer)
             {
@@ -156,7 +156,7 @@ namespace infinitybott
             */
         }
 
-        public override void clientClone(ModPlayer clientClone)
+        public override void CopyClientState(ModPlayer clientClone)/* tModPorter Suggestion: Replace Item.Clone usages with Item.CopyNetStateTo */
         {
             InfinitybottPlayer clone = clientClone as InfinitybottPlayer;
             clone.Inf_Calm = Inf_Calm;
@@ -442,10 +442,10 @@ namespace infinitybott
         {
             if (infinitybottConfig.Toggle_Inf_Inferno_Visual) Player.inferno = true;
             Lighting.AddLight((int)(Player.Center.X / 16f), (int)(Player.Center.Y / 16f), 0.65f, 0.4f, 0.1f);
-            int num12 = 24;
+            int num12 = 323;
             float num18 = 200f;
             bool flag = Player.infernoCounter % 60 == 0;
-            int damage = 10;
+            int damage = 20;
             if (Player.whoAmI != Main.myPlayer)
             {
                 return;
@@ -461,7 +461,7 @@ namespace infinitybott
                     }
                     if (flag)
                     {
-                        Player.ApplyDamageToNPC(nPC, damage, 0f, 0, crit: false);
+                        Player.ApplyDamageToNPC(nPC, damage, 0f, 0);
                     }
                 }
             }
@@ -482,11 +482,17 @@ namespace infinitybott
                 }
                 if (flag)
                 {
-                    player.Hurt(PlayerDeathReason.LegacyEmpty(), damage, 0, pvp: true);
+                    PlayerDeathReason reason = PlayerDeathReason.ByOther(16, Player.whoAmI);
+                    player.Hurt(reason, damage, 0, pvp: true);
                     if (Main.netMode != 0)
                     {
-                        PlayerDeathReason reason = PlayerDeathReason.ByOther(16);
-                        NetMessage.SendPlayerHurt(l, reason, damage, 0, critical: false, pvp: true, -1);
+                        Player.HurtInfo info = new Player.HurtInfo
+                        {
+                            DamageSource = reason,
+                            PvP = true,
+                            Damage = damage
+                        };
+                        NetMessage.SendPlayerHurt(l, info);
                     }
                 }
             }

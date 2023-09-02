@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MagicBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Mana Regeneration Buff");
-            Tooltip.SetDefault("Mana always regenerates as if not moving\nGreatly reduces mana regeneration delay\n-Hoho");
+            // DisplayName.SetDefault("Infinite Mana Regeneration Buff");
+            // Tooltip.SetDefault("Mana always regenerates as if not moving\nGreatly reduces mana regeneration delay\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

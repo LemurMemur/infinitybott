@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.OffensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Inferno Buff");
-            Tooltip.SetDefault("Damage and set nearby enemies on fire\n-Hoho");
+            // DisplayName.SetDefault("Infinite Inferno Buff");
+            // Tooltip.SetDefault("Damage and set nearby enemies on fire\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

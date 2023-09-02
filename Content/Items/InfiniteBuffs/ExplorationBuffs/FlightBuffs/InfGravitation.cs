@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ExplorationBuffs.FlightBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Gravitation Buff");
-            Tooltip.SetDefault("Allows gravity control\n-Hoho");
+            // DisplayName.SetDefault("Infinite Gravitation Buff");
+            // Tooltip.SetDefault("Allows gravity control\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

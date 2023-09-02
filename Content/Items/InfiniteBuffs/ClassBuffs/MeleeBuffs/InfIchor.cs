@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.MeleeBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Ichor Imbue Buff");
-            Tooltip.SetDefault("Melee attacks inflict Ichor\n-Hoho");
+            // DisplayName.SetDefault("Infinite Ichor Imbue Buff");
+            // Tooltip.SetDefault("Melee attacks inflict Ichor\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

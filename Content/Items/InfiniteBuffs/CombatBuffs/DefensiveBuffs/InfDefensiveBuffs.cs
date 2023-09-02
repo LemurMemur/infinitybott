@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.DefensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Defensive Buffs");
-            Tooltip.SetDefault("Infinite Endurance, Heartreach, Lifeforce, Thorns, and Warmth buffs\n-Hoho");
+            // DisplayName.SetDefault("Infinite Defensive Buffs");
+            // Tooltip.SetDefault("Infinite Endurance, Heartreach, Lifeforce, Thorns, and Warmth buffs\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

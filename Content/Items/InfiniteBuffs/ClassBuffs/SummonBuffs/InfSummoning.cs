@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.SummonBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Summoning Buff");
-            Tooltip.SetDefault("+1 Max minions\n-Hoho");
+            // DisplayName.SetDefault("Infinite Summoning Buff");
+            // Tooltip.SetDefault("+1 Max minions\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

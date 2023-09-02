@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.OffensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Titan Buff");
-            Tooltip.SetDefault("+50% knockback\n-Hoho");
+            // DisplayName.SetDefault("Infinite Titan Buff");
+            // Tooltip.SetDefault("+50% knockback\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

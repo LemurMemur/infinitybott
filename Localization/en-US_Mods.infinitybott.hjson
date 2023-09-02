@@ -1,0 +1,487 @@
+Keybinds: {
+	"Recall Potion Hotkey.DisplayName": Recall  Potion  Hotkey
+	"Return Potion Hotkey.DisplayName": Return  Potion  Hotkey
+	"Teleportation Potion Hotkey.DisplayName": Teleportation  Potion  Hotkey
+	"Toggle Peace.DisplayName": Toggle  Peace
+	"Toggle War.DisplayName": Toggle  War
+}
+
+Items: {
+	InfAllBuffs: {
+		DisplayName: Inf All Buffs
+		Tooltip: ""
+	}
+
+	InfBasicBuffs: {
+		DisplayName: Inf Basic Buffs
+		Tooltip: ""
+	}
+
+	InfClassBuffs: {
+		DisplayName: Inf Class Buffs
+		Tooltip: ""
+	}
+
+	InfArenaBuffs: {
+		DisplayName: Inf Arena Buffs
+		Tooltip: ""
+	}
+
+	InfExplorationBuffs: {
+		DisplayName: Inf Exploration Buffs
+		Tooltip: ""
+	}
+
+	InfTravelBuffs: {
+		DisplayName: Inf Travel Buffs
+		Tooltip: ""
+	}
+
+	InfSpawningBuffs: {
+		DisplayName: Inf Spawning Buffs
+		Tooltip: ""
+	}
+
+	InfCombatBuffs: {
+		DisplayName: Inf Combat Buffs
+		Tooltip: ""
+	}
+
+	InfLuckBuffs: {
+		DisplayName: Inf Luck Buffs
+		Tooltip: ""
+	}
+	InfBast: {
+		DisplayName: Inf Bast
+		Tooltip: ""
+	}
+
+	InfCampfire: {
+		DisplayName: Inf Campfire
+		Tooltip: ""
+	}
+
+	InfHeartLantern: {
+		DisplayName: Inf Heart Lantern
+		Tooltip: ""
+	}
+
+	InfHoney: {
+		DisplayName: Inf Honey
+		Tooltip: ""
+	}
+
+	InfStarBottle: {
+		DisplayName: Inf Star Bottle
+		Tooltip: ""
+	}
+
+	InfSunflower: {
+		DisplayName: Inf Sunflower
+		Tooltip: ""
+	}
+
+	InfFed: {
+		DisplayName: Inf Fed
+		Tooltip: ""
+	}
+
+	InfIronskin: {
+		DisplayName: Inf Ironskin
+		Tooltip: ""
+	}
+
+	InfRegeneration: {
+		DisplayName: Inf Regeneration
+		Tooltip: ""
+	}
+
+	InfSatisfied: {
+		DisplayName: Inf Satisfied
+		Tooltip: ""
+	}
+
+	InfStuffed: {
+		DisplayName: Inf Stuffed
+		Tooltip: ""
+	}
+
+	InfSwiftness: {
+		DisplayName: Inf Swiftness
+		Tooltip: ""
+	}
+
+	InfSugarRush: {
+		DisplayName: Inf Sugar Rush
+		Tooltip: ""
+	}
+
+	InfClairvoyance: {
+		DisplayName: Inf Clairvoyance
+		Tooltip: ""
+	}
+
+	InfMagicBuffs: {
+		DisplayName: Inf Magic Buffs
+		Tooltip: ""
+	}
+
+	InfMagicPower: {
+		DisplayName: Inf Magic Power
+		Tooltip: ""
+	}
+
+	InfManaRegeneration: {
+		DisplayName: Inf Mana Regeneration
+		Tooltip: ""
+	}
+
+	InfIchor: {
+		DisplayName: Inf Ichor
+		Tooltip: ""
+	}
+
+	InfMeleeBuffs: {
+		DisplayName: Inf Melee Buffs
+		Tooltip: ""
+	}
+
+	InfSharpened: {
+		DisplayName: Inf Sharpened
+		Tooltip: ""
+	}
+
+	InfTipsy: {
+		DisplayName: Inf Tipsy
+		Tooltip: ""
+	}
+
+	InfAmmoBox: {
+		DisplayName: Inf Ammo Box
+		Tooltip: ""
+	}
+
+	InfAmmoReservation: {
+		DisplayName: Inf Ammo Reservation
+		Tooltip: ""
+	}
+
+	InfArchery: {
+		DisplayName: Inf Archery
+		Tooltip: ""
+	}
+
+	InfRangedBuffs: {
+		DisplayName: Inf Ranged Buffs
+		Tooltip: ""
+	}
+
+	InfBewitched: {
+		DisplayName: Inf Bewitched
+		Tooltip: ""
+	}
+
+	InfSummonBuffs: {
+		DisplayName: Inf Summon Buffs
+		Tooltip: ""
+	}
+
+	InfSummoning: {
+		DisplayName: Inf Summoning
+		Tooltip: ""
+	}
+
+	InfDefensiveBuffs: {
+		DisplayName: Inf Defensive Buffs
+		Tooltip: ""
+	}
+
+	InfEndurance: {
+		DisplayName: Inf Endurance
+		Tooltip: ""
+	}
+
+	InfHeartreach: {
+		DisplayName: Inf Heartreach
+		Tooltip: ""
+	}
+
+	InfLifeforce: {
+		DisplayName: Inf Lifeforce
+		Tooltip: ""
+	}
+
+	InfThorns: {
+		DisplayName: Inf Thorns
+		Tooltip: ""
+	}
+
+	InfWarmth: {
+		DisplayName: Inf Warmth
+		Tooltip: ""
+	}
+
+	InfWar: {
+		DisplayName: Inf War
+		Tooltip: ""
+	}
+
+	InfInferno: {
+		DisplayName: Inf Inferno
+		Tooltip: ""
+	}
+
+	InfOffensiveBuffs: {
+		DisplayName: Inf Offensive Buffs
+		Tooltip: ""
+	}
+
+	InfRage: {
+		DisplayName: Inf Rage
+		Tooltip: ""
+	}
+
+	InfTitan: {
+		DisplayName: Inf Titan
+		Tooltip: ""
+	}
+
+	InfWrath: {
+		DisplayName: Inf Wrath
+		Tooltip: ""
+	}
+
+	InfAquaticBuffs: {
+		DisplayName: Inf Aquatic Buffs
+		Tooltip: ""
+	}
+
+	InfFlipper: {
+		DisplayName: Inf Flipper
+		Tooltip: ""
+	}
+
+	InfGills: {
+		DisplayName: Inf Gills
+		Tooltip: ""
+	}
+
+	InfWaterWalking: {
+		DisplayName: Inf Water Walking
+		Tooltip: ""
+	}
+
+	InfCrate: {
+		DisplayName: Inf Crate
+		Tooltip: ""
+	}
+
+	InfFishing: {
+		DisplayName: Inf Fishing
+		Tooltip: ""
+	}
+
+	InfFishingBuffs: {
+		DisplayName: Inf Fishing Buffs
+		Tooltip: ""
+	}
+
+	InfSonar: {
+		DisplayName: Inf Sonar
+		Tooltip: ""
+	}
+
+	InfFeatherfall: {
+		DisplayName: Inf Featherfall
+		Tooltip: ""
+	}
+
+	InfFlightBuffs: {
+		DisplayName: Inf Flight Buffs
+		Tooltip: ""
+	}
+
+	InfGravitation: {
+		DisplayName: Inf Gravitation
+		Tooltip: ""
+	}
+
+	InfBuilder: {
+		DisplayName: Inf Builder
+		Tooltip: ""
+	}
+
+	InfGatheringBuffs: {
+		DisplayName: Inf Gathering Buffs
+		Tooltip: ""
+	}
+
+	InfMining: {
+		DisplayName: Inf Mining
+		Tooltip: ""
+	}
+
+	InfObsidianSkin: {
+		DisplayName: Inf Obsidian Skin
+		Tooltip: ""
+	}
+
+	InfSpelunker: {
+		DisplayName: Inf Spelunker
+		Tooltip: ""
+	}
+
+	InfDangersense: {
+		DisplayName: Inf Dangersense
+		Tooltip: ""
+	}
+
+	InfHunter: {
+		DisplayName: Inf Hunter
+		Tooltip: ""
+	}
+
+	InfInvisibility: {
+		DisplayName: Inf Invisibility
+		Tooltip: ""
+	}
+
+	InfNightOwl: {
+		DisplayName: Inf Night Owl
+		Tooltip: ""
+	}
+
+	InfShine: {
+		DisplayName: Inf Shine
+		Tooltip: ""
+	}
+
+	InfVisualBuffs: {
+		DisplayName: Inf Visual Buffs
+		Tooltip: ""
+	}
+
+	InfGnomeBuff: {
+		DisplayName: Inf Gnome Buff
+		Tooltip: ""
+	}
+
+	InfGreaterLuck: {
+		DisplayName: Inf Greater Luck
+		Tooltip: ""
+	}
+
+	InfLadybugLuck: {
+		DisplayName: Inf Ladybug Luck
+		Tooltip: ""
+	}
+
+	InfLesserLuck: {
+		DisplayName: Inf Lesser Luck
+		Tooltip: ""
+	}
+
+	InfMediumLuck: {
+		DisplayName: Inf Medium Luck
+		Tooltip: ""
+	}
+
+	InfTorchLuck: {
+		DisplayName: Inf Torch Luck
+		Tooltip: ""
+	}
+
+	InfBattle: {
+		DisplayName: Inf Battle
+		Tooltip: ""
+	}
+
+	InfCalm: {
+		DisplayName: Inf Calm
+		Tooltip: ""
+	}
+
+	InfPeace: {
+		DisplayName: Inf Peace
+		Tooltip: ""
+	}
+
+	InfPeaceCandle: {
+		DisplayName: Inf Peace Candle
+		Tooltip: ""
+	}
+
+	InfWaterCandle: {
+		DisplayName: Inf Water Candle
+		Tooltip: ""
+	}
+
+	InfRecall: {
+		DisplayName: Inf Recall
+		Tooltip: ""
+	}
+
+	InfReturn: {
+		DisplayName: Inf Return
+		Tooltip: ""
+	}
+
+	InfTeleportation: {
+		DisplayName: Inf Teleportation
+		Tooltip: ""
+	}
+
+	InfWormhole: {
+		DisplayName: Inf Wormhole
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	infinitybottConfig: {
+		DisplayName: infinitybott Config
+
+		toggleInfCrate: {
+			Label: Enable Crate Effect
+			Tooltip: Enables Crate when using Infinite Crate Buff or its upgrades.
+		}
+
+		toggleInfGravitation: {
+			Label: Enable Gravitation Effect
+			Tooltip: Enables Gravitation when using Infinite Gravitation Buff or its upgrades.
+		}
+
+		toggleInfFeatherfall: {
+			Label: Enable Featherfall Potion Effect
+			Tooltip: Enables Featherfall when using Infinite Featherfall Buff or its upgrades.
+		}
+
+		toggleInfInferno: {
+			Label: Enable Inferno Potion Effect
+			Tooltip:
+				'''
+				Enables the Inferno effect when using Infinite Inferno Buff or its upgrades.
+				Disable to hide visual AND disable damage effect
+				DISABLED EFFECT overrides ENABLED VISUAL
+				'''
+		}
+
+		toggleInfInfernoVisual: {
+			Label: Enable Inferno Potion Visual
+			Tooltip:
+				'''
+				Enables the Inferno visual when using Infinite Inferno Buff or its upgrades.
+				Disable to hide the big flame circle
+				'''
+		}
+
+		toggleInfInvisibility: {
+			Label: Enable Invisibility Potion Effect
+			Tooltip:
+				'''
+				Enables Invisibility when using Infinite Invisibility Buff or its upgrades.
+				This affects spawn rates.
+				'''
+		}
+	}
+}

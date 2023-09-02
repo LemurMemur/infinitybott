@@ -10,8 +10,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Class-Specific Buffs");
-            Tooltip.SetDefault("Class specific potion and station buffs for Melee, Ranged, Magic, and Summon classes.\nAlso comes with cake!\n-Hoho");
+            // DisplayName.SetDefault("Infinite Class-Specific Buffs");
+            // Tooltip.SetDefault("Class specific potion and station buffs for Melee, Ranged, Magic, and Summon classes.\nAlso comes with cake!\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

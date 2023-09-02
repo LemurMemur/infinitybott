@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.OffensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Rage Buff");
-            Tooltip.SetDefault("+10% critical rate\n-Hoho");
+            // DisplayName.SetDefault("Infinite Rage Buff");
+            // Tooltip.SetDefault("+10% critical rate\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()

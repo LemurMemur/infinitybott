@@ -9,8 +9,8 @@ namespace infinitybott.Content.Items.InfiniteBuffs.CombatBuffs.DefensiveBuffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Infinite Heartreach Buff");
-            Tooltip.SetDefault("Increases life heart pickup range\n-Hoho");
+            // DisplayName.SetDefault("Infinite Heartreach Buff");
+            // Tooltip.SetDefault("Increases life heart pickup range\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()
