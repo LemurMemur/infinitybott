@@ -44,7 +44,7 @@ namespace infinitybott
 
             Terraria.On_Player.HasUnityPotion += hook_HasUnityPotion;
             Terraria.On_Player.TakeUnityPotion += hook_TakeUnityPotion;
-            /*
+            
             //Need to Manually add some content to make ItemID order correct for rainbow in RecipeBrowser and CheatSheet
 
             AddContent<Content.Items.InfiniteBuffs.InfAllBuffs>();
@@ -56,7 +56,7 @@ namespace infinitybott
             AddContent<Content.Items.InfiniteBuffs.SpawningBuffs.InfSpawningBuffs>();
             AddContent<Content.Items.InfiniteBuffs.CombatBuffs.InfCombatBuffs>();
             AddContent<Content.Items.InfiniteBuffs.LuckBuffs.InfLuckBuffs>();
-            */
+            
 
 
         }

@@ -7,433 +7,812 @@ Keybinds: {
 }
 
 Items: {
-	InfAllBuffs: {
-		DisplayName: Inf All Buffs
-		Tooltip: ""
-	}
-
-	InfBasicBuffs: {
-		DisplayName: Inf Basic Buffs
-		Tooltip: ""
-	}
-
-	InfClassBuffs: {
-		DisplayName: Inf Class Buffs
-		Tooltip: ""
-	}
-
-	InfArenaBuffs: {
-		DisplayName: Inf Arena Buffs
-		Tooltip: ""
-	}
-
-	InfExplorationBuffs: {
-		DisplayName: Inf Exploration Buffs
-		Tooltip: ""
-	}
-
-	InfTravelBuffs: {
-		DisplayName: Inf Travel Buffs
-		Tooltip: ""
-	}
-
-	InfSpawningBuffs: {
-		DisplayName: Inf Spawning Buffs
-		Tooltip: ""
-	}
-
-	InfCombatBuffs: {
-		DisplayName: Inf Combat Buffs
-		Tooltip: ""
-	}
-
-	InfLuckBuffs: {
-		DisplayName: Inf Luck Buffs
-		Tooltip: ""
-	}
 	InfBast: {
-		DisplayName: Inf Bast
-		Tooltip: ""
+		DisplayName: Infinite Bast Statue Buff
+		Tooltip:
+			'''
+			+5 Defense
+			-Hoho
+			'''
 	}
 
 	InfCampfire: {
-		DisplayName: Inf Campfire
-		Tooltip: ""
+		DisplayName: Infinite Campfire Buff
+		Tooltip:
+			'''
+			+0.5 Health per second
+			1.1x Regeneration speed
+			-Hoho
+			'''
 	}
 
 	InfHeartLantern: {
-		DisplayName: Inf Heart Lantern
-		Tooltip: ""
+		DisplayName: Infinite Heart Lantern Buff
+		Tooltip:
+			'''
+			+1 Health per second
+			-Hoho
+			'''
 	}
 
 	InfHoney: {
-		DisplayName: Inf Honey
-		Tooltip: ""
+		DisplayName: Infinite Honey Buff
+		Tooltip:
+			'''
+			+1 Health per second
+			3x Regeneration speed
+			-Hoho
+			'''
 	}
 
 	InfStarBottle: {
-		DisplayName: Inf Star Bottle
-		Tooltip: ""
+		DisplayName: Infinite Star in a Bottle Buff
+		Tooltip:
+			'''
+			+2 Mana per second
+			-Hoho
+			'''
 	}
 
 	InfSunflower: {
-		DisplayName: Inf Sunflower
-		Tooltip: ""
+		DisplayName: Infinite Sunflower Buff
+		Tooltip:
+			'''
+			+10% Max run speed
+			Monster spawn rate decrease not included
+			-Hoho
+			'''
 	}
 
 	InfFed: {
-		DisplayName: Inf Fed
-		Tooltip: ""
+		DisplayName: Infinite Well Fed
+		Tooltip:
+			'''
+			Well Fed Buff
+			Does not stack with other Food Buffs
+			Full details on Terraria wiki
+			-Hoho
+			'''
 	}
 
 	InfIronskin: {
-		DisplayName: Inf Ironskin
-		Tooltip: ""
+		DisplayName: Infinite Ironskin Potion
+		Tooltip:
+			'''
+			+8 Defense
+			-Hoho
+			'''
 	}
 
 	InfRegeneration: {
-		DisplayName: Inf Regeneration
-		Tooltip: ""
+		DisplayName: Infinite Regeneration Buff
+		Tooltip:
+			'''
+			+2 Health per second
+			-Hoho
+			'''
 	}
 
 	InfSatisfied: {
-		DisplayName: Inf Satisfied
-		Tooltip: ""
+		DisplayName: Infinite Plenty Satisfied
+		Tooltip:
+			'''
+			Plenty Satisfied Buff
+			Does not stack with other Food Buffs
+			Full details on Terraria wiki
+			-Hoho
+			'''
 	}
 
 	InfStuffed: {
-		DisplayName: Inf Stuffed
-		Tooltip: ""
+		DisplayName: Infinite Exquisitely Stuffed
+		Tooltip:
+			'''
+			Exquisitely Stuffed Buff
+			Does not stack with other Food Buffs
+			Full details on Terraria wiki
+			-Hoho
+			'''
 	}
 
 	InfSwiftness: {
-		DisplayName: Inf Swiftness
-		Tooltip: ""
+		DisplayName: Infinite Swiftness Buff
+		Tooltip:
+			'''
+			+25% Max run speed
+			-Hoho
+			'''
 	}
 
 	InfSugarRush: {
-		DisplayName: Inf Sugar Rush
-		Tooltip: ""
+		DisplayName: Infinite Sugar Rush Buff
+		Tooltip:
+			'''
+			+20% Movement speed
+			+20% Mining speed
+			-Hoho
+			'''
 	}
 
 	InfClairvoyance: {
-		DisplayName: Inf Clairvoyance
-		Tooltip: ""
+		DisplayName: Infinite Clairvoyance Buff
+		Tooltip:
+			'''
+			+20 maximum Mana
+			+5% Magic damage
+			+2% Magic critical strike chance
+			-2% Mana usage
+			-Hoho
+			'''
 	}
 
 	InfMagicBuffs: {
-		DisplayName: Inf Magic Buffs
-		Tooltip: ""
+		DisplayName: Infinite Magic Buffs
+		Tooltip:
+			'''
+			Infinite Clairvoyance, Magic Power, and Mana Regeneration
+			-Hoho
+			'''
 	}
 
 	InfMagicPower: {
-		DisplayName: Inf Magic Power
-		Tooltip: ""
+		DisplayName: Infinite Magic Power Buff
+		Tooltip:
+			'''
+			+20% Magic damage
+			-Hoho
+			'''
 	}
 
 	InfManaRegeneration: {
-		DisplayName: Inf Mana Regeneration
-		Tooltip: ""
+		DisplayName: Infinite Mana Regeneration Buff
+		Tooltip:
+			'''
+			Mana always regenerates as if not moving
+			Greatly reduces mana regeneration delay
+			-Hoho
+			'''
 	}
 
 	InfIchor: {
-		DisplayName: Inf Ichor
-		Tooltip: ""
+		DisplayName: Infinite Ichor Imbue Buff
+		Tooltip:
+			'''
+			Melee attacks inflict Ichor
+			-Hoho
+			'''
 	}
 
 	InfMeleeBuffs: {
-		DisplayName: Inf Melee Buffs
-		Tooltip: ""
+		DisplayName: Infinite Melee Buffs
+		Tooltip:
+			'''
+			Infinite Sharpened, Ichor, and Tipsy
+			-Hoho
+			'''
 	}
 
 	InfSharpened: {
-		DisplayName: Inf Sharpened
-		Tooltip: ""
+		DisplayName: Infinite Sharpened Buff
+		Tooltip:
+			'''
+			+12 Melee armor penetration
+			-Hoho
+			'''
 	}
 
 	InfTipsy: {
-		DisplayName: Inf Tipsy
-		Tooltip: ""
+		DisplayName: Infinite Tipsy Buff
+		Tooltip:
+			'''
+			+10% Melee damage
+			+10% Melee attack speed
+			+2% Melee critical rate
+			No defense reduction
+			-Hoho
+			'''
 	}
 
 	InfAmmoBox: {
-		DisplayName: Inf Ammo Box
-		Tooltip: ""
+		DisplayName: Infinite Ammo Box Buff
+		Tooltip:
+			'''
+			20% Chance to not consume ammo
+			-Hoho
+			'''
 	}
 
 	InfAmmoReservation: {
-		DisplayName: Inf Ammo Reservation
-		Tooltip: ""
+		DisplayName: Infinite Ammo Reservation Buff
+		Tooltip:
+			'''
+			20% Chance to not consume ammo
+			-Hoho
+			'''
 	}
 
 	InfArchery: {
-		DisplayName: Inf Archery
-		Tooltip: ""
+		DisplayName: Infinite Archery Buff
+		Tooltip:
+			'''
+			+20% Arrow damage
+			+20% Bow firing speed
+			-Hoho
+			'''
 	}
 
 	InfRangedBuffs: {
-		DisplayName: Inf Ranged Buffs
-		Tooltip: ""
+		DisplayName: Infinite Ranged Buffs
+		Tooltip:
+			'''
+			Infinite Ammo Box, Ammo Reservation, and Archery
+			-Hoho
+			'''
 	}
 
 	InfBewitched: {
-		DisplayName: Inf Bewitched
-		Tooltip: ""
+		DisplayName: Infinite Bewitching Buff
+		Tooltip:
+			'''
+			+1 Max minions
+			-Hoho
+			'''
 	}
 
 	InfSummonBuffs: {
-		DisplayName: Inf Summon Buffs
-		Tooltip: ""
+		DisplayName: Infinite Summon Buffs
+		Tooltip:
+			'''
+			Infinite Bewitched and Summoning
+			-Hoho
+			'''
 	}
 
 	InfSummoning: {
-		DisplayName: Inf Summoning
-		Tooltip: ""
+		DisplayName: Infinite Summoning Buff
+		Tooltip:
+			'''
+			+1 Max minions
+			-Hoho
+			'''
 	}
 
 	InfDefensiveBuffs: {
-		DisplayName: Inf Defensive Buffs
-		Tooltip: ""
+		DisplayName: Infinite Defensive Buffs
+		Tooltip:
+			'''
+			Infinite Endurance, Heartreach, Lifeforce, Thorns, and Warmth buffs
+			-Hoho
+			'''
 	}
 
 	InfEndurance: {
-		DisplayName: Inf Endurance
-		Tooltip: ""
+		DisplayName: Infinite Endurance Buff
+		Tooltip:
+			'''
+			+10% damage reduction
+			-Hoho
+			'''
 	}
 
 	InfHeartreach: {
-		DisplayName: Inf Heartreach
-		Tooltip: ""
+		DisplayName: Infinite Heartreach Buff
+		Tooltip:
+			'''
+			Increases life heart pickup range
+			-Hoho
+			'''
 	}
 
 	InfLifeforce: {
-		DisplayName: Inf Lifeforce
-		Tooltip: ""
+		DisplayName: Infinite Lifeforce Buff
+		Tooltip:
+			'''
+			+20% max health
+			-Hoho
+			'''
 	}
 
 	InfThorns: {
-		DisplayName: Inf Thorns
-		Tooltip: ""
+		DisplayName: Infinite Thorns Buff
+		Tooltip:
+			'''
+			Reflects damage and knockbacks enemies
+			-Hoho
+			'''
 	}
 
 	InfWarmth: {
-		DisplayName: Inf Warmth
-		Tooltip: ""
-	}
-
-	InfWar: {
-		DisplayName: Inf War
-		Tooltip: ""
+		DisplayName: Infinite Warmth Buff
+		Tooltip:
+			'''
+			Reduced damage from cold enemies by 30%
+			-Hoho
+			'''
 	}
 
 	InfInferno: {
-		DisplayName: Inf Inferno
-		Tooltip: ""
+		DisplayName: Infinite Inferno Buff
+		Tooltip:
+			'''
+			Damage and set nearby enemies on fire
+			-Hoho
+			'''
 	}
 
 	InfOffensiveBuffs: {
-		DisplayName: Inf Offensive Buffs
-		Tooltip: ""
+		DisplayName: Infinite Offensive Buffs
+		Tooltip:
+			'''
+			Infinite Inferno, Rage, Titan, and Wrath buffs
+			-Hoho
+			'''
 	}
 
 	InfRage: {
-		DisplayName: Inf Rage
-		Tooltip: ""
+		DisplayName: Infinite Rage Buff
+		Tooltip:
+			'''
+			+10% critical rate
+			-Hoho
+			'''
 	}
 
 	InfTitan: {
-		DisplayName: Inf Titan
-		Tooltip: ""
+		DisplayName: Infinite Titan Buff
+		Tooltip:
+			'''
+			+50% knockback
+			-Hoho
+			'''
 	}
 
 	InfWrath: {
-		DisplayName: Inf Wrath
-		Tooltip: ""
+		DisplayName: Infinite Wrath Buff
+		Tooltip:
+			'''
+			+10% damage
+			-Hoho
+			'''
 	}
 
 	InfAquaticBuffs: {
-		DisplayName: Inf Aquatic Buffs
-		Tooltip: ""
+		DisplayName: Infinite Aquatic Buffs
+		Tooltip:
+			'''
+			Infinite Flipper, Gills, and Water Walking
+			-Hoho
+			'''
 	}
 
 	InfFlipper: {
-		DisplayName: Inf Flipper
-		Tooltip: ""
+		DisplayName: Infinite Flipper Buff
+		Tooltip:
+			'''
+			Lets you move swiftly in liquids
+			-Hoho
+			'''
 	}
 
 	InfGills: {
-		DisplayName: Inf Gills
-		Tooltip: ""
+		DisplayName: Infinite Gills Buff
+		Tooltip:
+			'''
+			Allows breathing under water
+			-Hoho
+			'''
 	}
 
 	InfWaterWalking: {
-		DisplayName: Inf Water Walking
-		Tooltip: ""
+		DisplayName: Infinite Water Walking Buff
+		Tooltip:
+			'''
+			Walk on water.
+			Allows walking on other liquids when combined with obsidian skin.
+			-Hoho
+			'''
 	}
 
 	InfCrate: {
-		DisplayName: Inf Crate
-		Tooltip: ""
+		DisplayName: Infinite Crate Buff
+		Tooltip:
+			'''
+			Increases chance of catching a crate from 10% to 20%
+			-Hoho
+			'''
 	}
 
 	InfFishing: {
-		DisplayName: Inf Fishing
-		Tooltip: ""
+		DisplayName: Infinite Fishing Buff
+		Tooltip:
+			'''
+			+15 Fishing Power
+			-Hoho
+			'''
 	}
 
 	InfFishingBuffs: {
-		DisplayName: Inf Fishing Buffs
-		Tooltip: ""
+		DisplayName: Infinite Fishing Buffs
+		Tooltip:
+			'''
+			Infinite Crate, Fishing, and Sonar
+			-Hoho
+			'''
 	}
 
 	InfSonar: {
-		DisplayName: Inf Sonar
-		Tooltip: ""
+		DisplayName: Infinite Sonar Buff
+		Tooltip:
+			'''
+			Detects hooked fish
+			-Hoho
+			'''
 	}
 
 	InfFeatherfall: {
-		DisplayName: Inf Featherfall
-		Tooltip: ""
+		DisplayName: Infinite Featherfall Buff
+		Tooltip:
+			'''
+			Allows slow fall
+			-Hoho
+			'''
 	}
 
 	InfFlightBuffs: {
-		DisplayName: Inf Flight Buffs
-		Tooltip: ""
+		DisplayName: Infinite Flight Buffs
+		Tooltip:
+			'''
+			Infinite Featherfall and Gravitation
+			-Hoho
+			'''
 	}
 
 	InfGravitation: {
-		DisplayName: Inf Gravitation
-		Tooltip: ""
+		DisplayName: Infinite Gravitation Buff
+		Tooltip:
+			'''
+			Allows gravity control
+			-Hoho
+			'''
 	}
 
 	InfBuilder: {
-		DisplayName: Inf Builder
-		Tooltip: ""
+		DisplayName: Infinite Builder Buff
+		Tooltip:
+			'''
+			Increased placement speed and reach
+			-Hoho
+			'''
 	}
 
 	InfGatheringBuffs: {
-		DisplayName: Inf Gathering Buffs
-		Tooltip: ""
+		DisplayName: Infinite Gathering Buffs
+		Tooltip:
+			'''
+			Infinite Builder, Mining, Obsidian Skin, and Spelunker
+			-Hoho
+			'''
 	}
 
 	InfMining: {
-		DisplayName: Inf Mining
-		Tooltip: ""
+		DisplayName: Infinite Mining Buff
+		Tooltip:
+			'''
+			Increased mining speed
+			-Hoho
+			'''
 	}
 
 	InfObsidianSkin: {
-		DisplayName: Inf Obsidian Skin
-		Tooltip: ""
+		DisplayName: Infinite Obsidian Skin Buff
+		Tooltip:
+			'''
+			Immunity to fire and lava
+			-Hoho
+			'''
 	}
 
 	InfSpelunker: {
-		DisplayName: Inf Spelunker
-		Tooltip: ""
+		DisplayName: Infinite Spelunker Buff
+		Tooltip:
+			'''
+			Lights up treasure
+			-Hoho
+			'''
 	}
 
 	InfDangersense: {
-		DisplayName: Inf Dangersense
-		Tooltip: ""
+		DisplayName: Infinite Dangersense Buff
+		Tooltip:
+			'''
+			Highlights traps
+			-Hoho
+			'''
 	}
 
 	InfHunter: {
-		DisplayName: Inf Hunter
-		Tooltip: ""
+		DisplayName: Infinite Hunter Buff
+		Tooltip:
+			'''
+			Highlights enemies and allies
+			-Hoho
+			'''
 	}
 
 	InfInvisibility: {
-		DisplayName: Inf Invisibility
-		Tooltip: ""
+		DisplayName: Infinite Invisibility Buff
+		Tooltip:
+			'''
+			Invisibility can be toggled in the mod menu
+			Mod menu must be bound to use
+			-Hoho
+			'''
 	}
 
 	InfNightOwl: {
-		DisplayName: Inf Night Owl
-		Tooltip: ""
+		DisplayName: Infinite Night Owl Buff
+		Tooltip:
+			'''
+			Grants better night vision
+			-Hoho
+			'''
 	}
 
 	InfShine: {
-		DisplayName: Inf Shine
-		Tooltip: ""
+		DisplayName: Infinite Shine Buff
+		Tooltip:
+			'''
+			Become a walking torch
+			-Hoho
+			'''
 	}
 
 	InfVisualBuffs: {
-		DisplayName: Inf Visual Buffs
-		Tooltip: ""
+		DisplayName: Infinite Visual Buffs
+		Tooltip:
+			'''
+			Infinite Dangersense, Hunter, Invisibility, Night Owl, and Shine
+			-Hoho
+			'''
 	}
 
 	InfGnomeBuff: {
-		DisplayName: Inf Gnome Buff
-		Tooltip: ""
+		DisplayName: Infinite Garden Gnome Buff
+		Tooltip:
+			'''
+			+0.2 Luck
+			G'NOME
+			-Hoho
+			'''
 	}
 
 	InfGreaterLuck: {
-		DisplayName: Inf Greater Luck
-		Tooltip: ""
+		DisplayName: Infinite Greater Luck Buff
+		Tooltip:
+			'''
+			+0.3 Luck
+			-Hoho
+			'''
 	}
 
 	InfLadybugLuck: {
-		DisplayName: Inf Ladybug Luck
-		Tooltip: ""
+		DisplayName: Infinite Ladybug Luck
+		Tooltip:
+			'''
+			+0.4 Luck
+			-Hoho
+			'''
 	}
 
 	InfLesserLuck: {
-		DisplayName: Inf Lesser Luck
-		Tooltip: ""
+		DisplayName: Infinite Lesser Luck Buff
+		Tooltip:
+			'''
+			+0.1 Luck
+			-Hoho
+			'''
 	}
 
 	InfMediumLuck: {
-		DisplayName: Inf Medium Luck
-		Tooltip: ""
+		DisplayName: Infinite Medium Luck Buff
+		Tooltip:
+			'''
+			+0.2 Luck
+			-Hoho
+			'''
 	}
 
 	InfTorchLuck: {
-		DisplayName: Inf Torch Luck
-		Tooltip: ""
+		DisplayName: Infinite Torch Luck Buff
+		Tooltip:
+			'''
+			+0.2 Luck
+			-Hoho
+			'''
 	}
 
 	InfBattle: {
-		DisplayName: Inf Battle
-		Tooltip: ""
+		DisplayName: Infinite Battle Buff
+		Tooltip:
+			'''
+			+100% Spawn Rate
+			+100% Enemy Limit
+			Use Toggle War Keybind to activate
+			-Hoho
+			'''
 	}
 
 	InfCalm: {
-		DisplayName: Inf Calm
-		Tooltip: ""
+		DisplayName: Infinite Calm Buff
+		Tooltip:
+			'''
+			-30% Spawn Rate
+			-30% Enemy Limit
+			Use Toggle Peace Keybind to activate
+			-Hoho
+			'''
 	}
 
 	InfPeace: {
-		DisplayName: Inf Peace
-		Tooltip: ""
+		DisplayName: Infinite Peace
+		Tooltip:
+			'''
+			Allows toggling Ultimate Peace
+			Makes enemy limit 0
+			-Hoho
+			'''
 	}
 
 	InfPeaceCandle: {
-		DisplayName: Inf Peace Candle
-		Tooltip: ""
+		DisplayName: Infinite Peace Candle Buff
+		Tooltip:
+			'''
+			-30% Spawn Rate
+			-30% Enemy Limit
+			Use Toggle Peace Keybind to activate
+			-Hoho
+			'''
+	}
+
+	InfWar: {
+		DisplayName: Infinite War
+		Tooltip:
+			'''
+			Allows toggling Ultimate War
+			100x Spawn Rate, 20x Enemy Limit
+			-Hoho
+			'''
 	}
 
 	InfWaterCandle: {
-		DisplayName: Inf Water Candle
-		Tooltip: ""
+		DisplayName: Infinite Water Candle Buff
+		Tooltip:
+			'''
+			+25% Spawn Rate
+			+50% Enemy Limit
+			Use Toggle War Keybind to activate
+			-Hoho
+			'''
 	}
 
 	InfRecall: {
-		DisplayName: Inf Recall
-		Tooltip: ""
+		DisplayName: Infinite Recall
+		Tooltip:
+			'''
+			Must be bound to a key to use
+			-Hoho
+			'''
 	}
 
 	InfReturn: {
-		DisplayName: Inf Return
-		Tooltip: ""
+		DisplayName: Infinite Return
+		Tooltip:
+			'''
+			Recall, with the option to return once
+			Both must be bound to keys to use
+			-Hoho
+			'''
 	}
 
 	InfTeleportation: {
-		DisplayName: Inf Teleportation
-		Tooltip: ""
+		DisplayName: Infinite Teleportation
+		Tooltip:
+			'''
+			Teleports the player to a random location
+			-Hoho
+			'''
 	}
 
 	InfWormhole: {
-		DisplayName: Inf Wormhole
-		Tooltip: ""
+		DisplayName: Infinite Wormhole
+		Tooltip:
+			'''
+			Click on an allied player on the fullscreen map to teleport to them
+			-Hoho
+			'''
+	}
+
+	InfAllBuffs: {
+		DisplayName: All Buffs
+		Tooltip:
+			'''
+			Grants all vanilla buffs
+			"LFG!"
+			-Hoho
+			'''
+	}
+
+	InfBasicBuffs: {
+		DisplayName: Infinite Basic Buffs
+		Tooltip:
+			'''
+			Infinite Ironskin, Swiftness, Regeneration, and Exquisitely Stuffed
+			-Hoho
+			'''
+	}
+
+	InfClassBuffs: {
+		DisplayName: Infinite Class-Specific Buffs
+		Tooltip:
+			'''
+			Class specific potion and station buffs for Melee, Ranged, Magic, and Summon classes.
+			Also comes with cake!
+			-Hoho
+			'''
+	}
+
+	InfArenaBuffs: {
+		DisplayName: Infinite Arena Buffs
+		Tooltip:
+			'''
+			Infinite Campfire, Heart Lantern, Honey, Star in a Bottle, Sunflower, Bast Statue
+			-Hoho
+			'''
+	}
+
+	InfExplorationBuffs: {
+		DisplayName: Infinite Exploration Buffs
+		Tooltip:
+			'''
+			Infinite Aquatic, Fishing, Flight, Gathering, and Visual
+			-Hoho
+			'''
+	}
+
+	InfTravelBuffs: {
+		DisplayName: Infinite Travel Buffs
+		Tooltip:
+			'''
+			Infinite Recall, Return, Teleportation, and Wormhole
+			-Hoho
+			'''
+	}
+
+	InfSpawningBuffs: {
+		DisplayName: Infinite Spawning Buffs
+		Tooltip:
+			'''
+			Allows toggling Ultimate Peace and War
+			-Hoho
+			'''
+	}
+
+	InfCombatBuffs: {
+		DisplayName: Infinite Combat Buffs
+		Tooltip:
+			'''
+			General offensive and defensive buffs
+			-Hoho
+			'''
+	}
+
+	InfLuckBuffs: {
+		DisplayName: Infinite Luck Buffs
+		Tooltip:
+			'''
+			+1.1 Luck
+			-Hoho
+			'''
 	}
 }
 
