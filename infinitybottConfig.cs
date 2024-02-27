@@ -13,6 +13,11 @@ namespace infinitybott
 		[DefaultValue(true)]
 		public bool toggleInfCrate;
 
+		[Label("Enable Gills Effect")]
+		[Tooltip("Enables Gills when using Infinite Gills Buff or its upgrades.")]
+		[DefaultValue(true)]
+		public bool toggleInfGills;
+
 		[Label("Enable Gravitation Effect")]
 		[Tooltip("Enables Gravitation when using Infinite Gravitation Buff or its upgrades.")]
 		[DefaultValue(true)]
@@ -43,6 +48,9 @@ namespace infinitybott
 
 		[JsonIgnore]
 		public static bool Toggle_Inf_Crate => Instance.toggleInfCrate;
+
+		[JsonIgnore]
+		public static bool Toggle_Inf_Gills => Instance.toggleInfGills;
 
 		[JsonIgnore]
 		public static bool Toggle_Inf_Gravitation => Instance.toggleInfGravitation;

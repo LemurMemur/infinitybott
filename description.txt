@@ -1,4 +1,4 @@
-1.1.0 - Sep.2023
+1.1.2 - Feb.2024
 
 Infinite Buffs
 Works similarly to Luiafk; Buffs automatically apply directly when in inventory. They do not need to be equiped and do not take up any buff slots.
@@ -6,8 +6,6 @@ Keybinds are needed for Recall, Return, Teleportation, Peace, and War.
 For Peace and War, the highest level of modifier will be used; The candle and potion modifiers will be additive, while the ultimate modifier is fixed.
 Suggested use with AlchemistNPC, Fargo's Souls, and Recipe Browser
 
-
-This has become an unintentional undertale reference and I'm going to stick with it.
 
 It will usually take 30 of an item to create the infinite potion buff item, rarer items and furniture buffs (Like campfire) will usually take 5 to craft, and even rarer items (Ammo Box, Bast Statue, etc.) take 2.
 Most items with multiple crafting versions will require the default version until I finish a good portion of the mod and then figure out how to use recipe groups.

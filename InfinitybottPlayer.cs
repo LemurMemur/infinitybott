@@ -689,7 +689,7 @@ namespace infinitybott
                 Player.ignoreWater = true;
                 Player.accFlipper = true;
             }
-            if (Inf_Gills)
+            if (Inf_Gills && infinitybottConfig.Toggle_Inf_Gills)
             {
                 Player.buffImmune[BuffID.Gills] = true;
                 Player.gills = true;

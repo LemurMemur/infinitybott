@@ -825,6 +825,11 @@ Configs: {
 			Tooltip: Enables Crate when using Infinite Crate Buff or its upgrades.
 		}
 
+		toggleInfGills: {
+			Label: Enable Gills Effect
+			Tooltip: Enables Gills when using Infinite Gills Buff or its upgrades.
+		}
+
 		toggleInfGravitation: {
 			Label: Enable Gravitation Effect
 			Tooltip: Enables Gravitation when using Infinite Gravitation Buff or its upgrades.
