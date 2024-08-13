@@ -259,6 +259,15 @@ Items: {
 			'''
 	}
 
+	InfStrategist: {
+		DisplayName: Infinite Strategist Buff
+		Tooltip:
+			'''
+			+1 Max sentries
+			-Hoho
+			'''
+	}
+
 	InfSummonBuffs: {
 		DisplayName: Infinite Summon Buffs
 		Tooltip:

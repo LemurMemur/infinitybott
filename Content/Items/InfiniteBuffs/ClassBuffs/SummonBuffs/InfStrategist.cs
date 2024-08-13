@@ -5,12 +5,10 @@ using Terraria.GameContent.Creative;
 
 namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.SummonBuffs
 {
-    internal class InfSummonBuffs : ModItem
+    internal class InfStrategist : ModItem
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infinite Summon Buffs");
-            // Tooltip.SetDefault("Infinite Bewitched and Summoning\n-Hoho");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults()
@@ -25,9 +23,7 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.SummonBuffs
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ModContent.ItemType<InfBewitched>(), 1)
-                .AddIngredient(ModContent.ItemType<InfSummoning>(), 1)
-                .AddIngredient(ModContent.ItemType<InfStrategist>(), 1)
+                .AddIngredient(ItemID.WarTable, 2)
                 .Register();
 
         }
@@ -35,7 +31,7 @@ namespace infinitybott.Content.Items.InfiniteBuffs.ClassBuffs.SummonBuffs
         public override void UpdateInventory(Player player)
         {
             InfinitybottPlayer modPlayer = player.GetModPlayer<InfinitybottPlayer>();
-            modPlayer.UseSummonBuffs();
+            modPlayer.Inf_Strategist = true;
         }
 
     }

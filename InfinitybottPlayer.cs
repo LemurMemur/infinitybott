@@ -82,6 +82,7 @@ namespace infinitybott
         //  Summon
         public bool Inf_Bewitched = false;
         public bool Inf_Summoning = false;
+        public bool Inf_Strategist = false;
         // Luck Buffs
         public bool Inf_Lesser_Luck = false;
         public bool Inf_Medium_Luck = false;
@@ -239,8 +240,9 @@ namespace infinitybott
             // Summon
             Inf_Bewitched = false;
             Inf_Summoning = false;
-            // Luck Buffs
-            Inf_Lesser_Luck = false;
+            Inf_Strategist = false;
+        // Luck Buffs
+        Inf_Lesser_Luck = false;
             Inf_Medium_Luck = false;
             Inf_Greater_Luck = false;
             Inf_Ladybug_Luck = false;
@@ -338,7 +340,8 @@ namespace infinitybott
         {
             Inf_Bewitched = true;
             Inf_Summoning = true;
-        }
+            Inf_Strategist = true;
+    }
         public void UseClassBuffs()
         {
             UseMeleeBuffs();
@@ -661,6 +664,11 @@ namespace infinitybott
             {
                 Player.buffImmune[BuffID.Summoning] = true;
                 Player.maxMinions++;
+            }
+            if (Inf_Strategist)
+            {
+                Player.buffImmune[BuffID.WarTable] = true;
+                Player.maxTurrets++;
             }
             // Luck
             if (Inf_Lesser_Luck)

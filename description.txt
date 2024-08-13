@@ -1,4 +1,4 @@
-1.1.2 - Feb.2024
+1.1.4 - Aug.2024
 
 Infinite Buffs
 Works similarly to Luiafk; Buffs automatically apply directly when in inventory. They do not need to be equiped and do not take up any buff slots.
