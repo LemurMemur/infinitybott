@@ -512,7 +512,10 @@ namespace infinitybott
             if (Inf_Swiftness)
             {
                 Player.buffImmune[BuffID.Swiftness] = true;
-                Player.moveSpeed += 0.25f; // 25% bonus run speed
+                // Player.moveSpeed += 0.25f; // 25% bonus run speed
+                float speedIncrease = 0.25f;
+                if (infinitybottConfig.Toggle_Calamity_Speed_Balance) speedIncrease = 0.15f;
+                Player.moveSpeed += speedIncrease; // 25% bonus run speed // 15% if Calamity balance is enabled
             }
             if (Inf_Regeneration)
             {
@@ -530,7 +533,10 @@ namespace infinitybott
                 Player.GetDamage(DamageClass.Generic) += 0.1f;
                 Player.GetAttackSpeed(DamageClass.Melee) += 0.1f;
                 Player.GetKnockback(DamageClass.Summon) += 1f;
-                Player.moveSpeed += 0.4f;
+                // Player.moveSpeed += 0.4f;
+                float speedIncrease = 0.4f;
+                if (infinitybottConfig.Toggle_Calamity_Speed_Balance) speedIncrease = 0.100f;
+                Player.moveSpeed += speedIncrease;
                 Player.pickSpeed -= 0.15f;
             }
             else if (Inf_Satisfied) // Middle Well Fed
@@ -544,7 +550,10 @@ namespace infinitybott
                 Player.GetDamage(DamageClass.Generic) += 0.075f;
                 Player.GetAttackSpeed(DamageClass.Melee) += 0.075f;
                 Player.GetKnockback(DamageClass.Summon) += 0.75f;
-                Player.moveSpeed += 0.3f;
+                // Player.moveSpeed += 0.3f;
+                float speedIncrease = 0.3f;
+                if (infinitybottConfig.Toggle_Calamity_Speed_Balance) speedIncrease = 0.075f;
+                Player.moveSpeed += speedIncrease;
                 Player.pickSpeed -= 0.1f;
             }
             else if (Inf_Fed) // Basic Well Fed
@@ -558,7 +567,10 @@ namespace infinitybott
                 Player.GetDamage(DamageClass.Generic) += 0.05f;
                 Player.GetAttackSpeed(DamageClass.Melee) += 0.05f;
                 Player.GetKnockback(DamageClass.Summon) += 0.5f;
-                Player.moveSpeed += 0.2f;
+                // Player.moveSpeed += 0.2f;
+                float speedIncrease = 0.3f;
+                if (infinitybottConfig.Toggle_Calamity_Speed_Balance) speedIncrease = 0.050f;
+                Player.moveSpeed += speedIncrease;
                 Player.pickSpeed -= 0.05f;
             }
 
@@ -578,8 +590,8 @@ namespace infinitybott
                 // Campfire buff doesn't actually do anything in the source code, all the stat changes just come from this next boolean
                 Main.SceneMetrics.HasCampfire = true;
                 // Same changes to Gnomes and Heart Lanterns
-            }
-            if (Inf_Heart_Lantern)
+                }
+                if (Inf_Heart_Lantern)
             {
                 Player.buffImmune[BuffID.HeartLamp] = true;
                 //Player.lifeRegen += 2; // +1 health / second

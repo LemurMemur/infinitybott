@@ -829,6 +829,11 @@ Configs: {
 	infinitybottConfig: {
 		DisplayName: infinitybott Config
 
+		toggleCalamitySpeedBalance: {
+			Label: Enable Calamity Speed Balance
+			Tooltip: Reduces the effects of Swiftness and Well Fed buffs to Calamity standards. Check the mod description for more details.
+		}
+
 		toggleInfCrate: {
 			Label: Enable Crate Effect
 			Tooltip: Enables Crate when using Infinite Crate Buff or its upgrades.

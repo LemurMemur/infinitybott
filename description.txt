@@ -1,4 +1,4 @@
-1.1.4 - Aug.2024
+1.1.6 - Apr.2025
 
 Infinite Buffs
 Works similarly to Luiafk; Buffs automatically apply directly when in inventory. They do not need to be equiped and do not take up any buff slots.
@@ -12,16 +12,15 @@ Most items with multiple crafting versions will require the default version unti
 (use basic woodeen campfire, etc.)
 Some materials (prime example is bast statue) will most likely require crate fishing.
 
-WARNING:
-Calamity Mod has some speed changes not reflected in this mod, due to its base movement speed buff from 15 mps -> 23 mps.
+Note:
+Calamity Mod has some speed changes due to its base movement speed buff from 15 mps -> 23 mps.
 Swiftness potions were nerfed in Calamity to give a 15% speed bonus instead of 25%.
 Well Fed speed bonuses decreased from:
 20% -> 5%
 30% -> 7.5%
 40% -> 10%
 for Well Fed, Plenty Satisfied, and Exquisitely Stuffed, respectively.
-!!! THESE CHANGES ARE NOT REFLECTED HERE !!!
-Full basic buffs item grants a combined 65% bonus movement speed, while in Calamity, the buffs would give 25% movement speed.
+There exists a toggle in the config to change the buff effects from this mod to reflect the nerfs in Calamity.
 
 WIP:
 For the most part, the actual content of the mod is finalized.
