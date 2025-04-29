@@ -198,7 +198,7 @@ namespace infinitybott
                 packet.Send();
             }
         }
-        
+
         public override void ResetEffects()
         {
             // Recall and Wormhole
@@ -241,8 +241,8 @@ namespace infinitybott
             Inf_Bewitched = false;
             Inf_Summoning = false;
             Inf_Strategist = false;
-        // Luck Buffs
-        Inf_Lesser_Luck = false;
+            // Luck Buffs
+            Inf_Lesser_Luck = false;
             Inf_Medium_Luck = false;
             Inf_Greater_Luck = false;
             Inf_Ladybug_Luck = false;
@@ -341,7 +341,7 @@ namespace infinitybott
             Inf_Bewitched = true;
             Inf_Summoning = true;
             Inf_Strategist = true;
-    }
+        }
         public void UseClassBuffs()
         {
             UseMeleeBuffs();
@@ -566,15 +566,25 @@ namespace infinitybott
             if (Inf_Campfire)
             {
                 Player.buffImmune[BuffID.Campfire] = true;
-                Player.lifeRegen += 1; // +0.5 health / second
-                Player.lifeRegenTime = (int) (Player.lifeRegenTime * 1.1f); // 1.1x regen speed 
+
+                //Player.lifeRegen += 1; // +0.5 health / second
+                //Player.lifeRegenTime = (int) (Player.lifeRegenTime * 1.1f); // 1.1x regen speed 
                 // Because of the int cast, I have no clue if the second line actually does anything.
                 // It's not included in the vanilla campfire buff code, but says 1.1x speed on the wiki.
+
+                // Above block is wrong, instead is implemented in NaturalLifeRegen override
+
+                // Nevermind, above line is also wrong, simply tell Terraria that there is a campfire on scene
+                // Campfire buff doesn't actually do anything in the source code, all the stat changes just come from this next boolean
+                Main.SceneMetrics.HasCampfire = true;
+                // Same changes to Gnomes and Heart Lanterns
             }
             if (Inf_Heart_Lantern)
             {
                 Player.buffImmune[BuffID.HeartLamp] = true;
-                Player.lifeRegen += 2; // +1 health / second
+                //Player.lifeRegen += 2; // +1 health / second
+                // See campfire comments for notes
+                Main.SceneMetrics.HasHeartLantern = true;
             }
             if (Inf_Honey)
             {
@@ -687,7 +697,13 @@ namespace infinitybott
                 Player.luckPotion = 3;
             }
             if (Inf_Ladybug_Luck) Player.ladyBugLuckTimeLeft = 86400;
-            if (Inf_Gnome_Luck) Player.HasGardenGnomeNearby = true;
+            if (Inf_Gnome_Luck)
+            {
+                //Player.HasGardenGnomeNearby = true;
+                Main.SceneMetrics.HasGardenGnome = true;
+                // This is simply reusing Terraria source code so the effect is indistinguishable from actually having a gnome
+                // See Campfire for notes
+            }
             if (Inf_Torch_Luck) Player.torchLuck = 1;
             // Exploration Buffs
             //  Aquatic Buffs
@@ -715,7 +731,7 @@ namespace infinitybott
             }
             if (Inf_Fishing)
             {
-                Player.buffImmune[BuffID.Fishing] = true; 
+                Player.buffImmune[BuffID.Fishing] = true;
                 Player.fishingSkill += 15;
             }
             if (Inf_Sonar)
